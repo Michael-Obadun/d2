@@ -29,7 +29,6 @@ ALLOWED_HOSTS = ['8000-michaelobadun-d2-6bu795ihuz7.ws.codeinstitute-ide.net']
 
 
 # Application definition
-
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -38,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'hello_world',
+    'about',
 ]
 
 MIDDLEWARE = [
